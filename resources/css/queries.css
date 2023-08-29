@@ -84,7 +84,7 @@
         margin-bottom: 20px;
     }
     footer{
-        font-size: 50%;
+        font-size: 53%;
         padding: 10px;
     }
     ul.social-links{
@@ -93,6 +93,9 @@
     }
     ul.footer-nav{
         margin-left: 8%;
+    }
+    div.col.span-2-of-3.sign-up{
+        padding-left: 30%;
     }
 }
 
