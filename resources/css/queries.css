@@ -59,6 +59,10 @@
     }
     .works-step{margin-bottom: 20px;}
     .works-step:last-of-type{margin-bottom: 20px;}
+    .logo{
+        height: 90px;
+        width: auto;
+    }
 
 }
 
@@ -71,6 +75,9 @@
     .row,
     .hero-text-box{
         padding: 0 4%;
+    }
+    h1{
+        font-size: 30px;
     }
     .col{
         width: 100%;
@@ -97,6 +104,10 @@
     div.col.span-2-of-3.sign-up{
         padding-left: 30%;
     }
+    .logo{
+        height: 80px;
+        width: auto;
+    }
 }
 
 
@@ -106,4 +117,16 @@
         padding: 25px 0;
     }
     .contact-form{width: 100%;}
+}
+
+@media only screen and (max-height:450px){
+    .row.top{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 270px){
+    .row.top{
+        display: none;
+    }
 }
